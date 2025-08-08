@@ -96,15 +96,15 @@
             };
             
             const initialBuildings = [
-    { x: 130, z: 70, width: 13, height: 33, depth: 13, color: "#BEBEBE", type: 'normal' },
+    { x: 130, z: 10, width: 13, height: 33, depth: 13, color: "#BEBEBE", type: 'normal' },
     { x: 230, z: 10, width: 19, height: 52, depth: 19, color: "#4169E1", type: 'normal' },
-    { x: -50, z: -30, width: 15, height: 38, depth: 15, color: "#B0E0E6", type: 'normal' },
+    { x: -50, z: -50, width: 15, height: 38, depth: 15, color: "#B0E0E6", type: 'normal' },
     { x: -130, z: -90, width: 24, height: 58, depth: 16, color: "#483D8B", type: 'normal' },
-    { x: 160, z: -25, width: 14, height: 27, depth: 14, color: "#8B0000", type: 'normal' },
-    { x: 80, z: -8, width: 21, height: 42, depth: 21, color: "#CD853F", type: 'normal' },
-    { x: -70, z: 25, width: 16, height: 48, depth: 24, color: "#D2691E", type: 'normal' },
+    { x: 10, z: -25, width: 14, height: 27, depth: 14, color: "#8B0000", type: 'normal' },
+    { x: 80, z: -80, width: 21, height: 42, depth: 21, color: "#CD853F", type: 'normal' },
+    { x: -70, z: 0, width: 16, height: 48, depth: 24, color: "#D2691E", type: 'normal' },
     { x: -160, z: 50, width: 22, height: 38, depth: 22, color: "#FF4500", type: 'normal' },
-    { x: -5, z: -5, width: 32, height: 80, depth: 32, color: "#2E8B57", type: 'normal' }
+    { x: -5, z: -50, width: 32, height: 80, depth: 32, color: "#2E8B57", type: 'normal' }
 ];
             initialBuildings.forEach(b => {
                 const building = createBuilding(b.width, b.height, b.depth, b.x, b.z, b.color, b.type);
@@ -120,4 +120,5 @@
             updateStats();
         </script>
     </body>
+
     </html>
